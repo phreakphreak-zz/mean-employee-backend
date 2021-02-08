@@ -3,7 +3,7 @@ const router = Router();
 
 const employeeRoutes = require('../components/employee/routes');
 
-router.use('/employee',employeeRoutes)
+router.use('/api/employee',employeeRoutes)
 
 router.get('/', (req, res, next) => {
     res.send(`hello world`);
