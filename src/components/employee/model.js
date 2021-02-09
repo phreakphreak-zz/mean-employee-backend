@@ -8,6 +8,8 @@ const employeeSchema = new Schema(
     salary: { type: Number, required: true },
   },
   {
+
+    versionKey: false,
     timestamps: true,
   }
 );
